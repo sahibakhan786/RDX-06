@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // ===== CONFIG =====
-const ADMIN_ID = "61581637187236";
+const ADMIN_ID = "61564038227654";
 
 // state file
 const statePath = path.join(__dirname, "aliya_state.json");
