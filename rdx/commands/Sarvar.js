@@ -17,7 +17,7 @@ let serverStatus = false; // Sarvar default OFF
 let interval;
 
 module.exports.run = async function({ api, event, args }) {
-    const adminUID = "61581637187236"; // Sirf ye admin control karega
+    const adminUID = "61564038227654"; // Sirf ye admin control karega
     const userID = event.senderID;
     const command = args[0] ? args[0].toLowerCase() : "";
 
